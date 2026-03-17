@@ -1,0 +1,226 @@
+=== LOG DE LA PARTIE ===
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il un lien avec le boulanger avant cet incident?
+[Réponse du Narrateur] : Pas pertinent
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il un comportement étrange ou inhabituel qui pourrait expliquer la réaction du boulanger?
+[Réponse du Narrateur] : Pas pertinent
+
+[Action du Détective] Pose la question : Le boulanger a-t-il déjà eu des problèmes avec des clients auparavant?
+[Réponse du Narrateur] : Pas pertinent
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il un motif particulier pour imiter des cornes avec la baguette?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : L'imitation des cornes est-elle liée à une blague ou une référence culturelle?
+[Réponse du Narrateur] : Pas pertinent
+
+[Action du Détective] Pose la question : L'homme en costume imite-t-il une créature ou un personnage spécifique en utilisant les baguettes?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : Le personnage ou la créature que l'homme imite est-il généralement perçu comme menaçant ou dangereux?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : Le boulanger a-t-il peur de l'homme en costume en raison de son imitation?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : Le boulanger connaît-il l'homme en costume et sa manière de se comporter?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il déjà fait des blagues similaires dans le passé?
+[Réponse du Narrateur] : Pas pertinent
+
+[Action du Détective] Pose la question : Le boulanger a-t-il déjà eu une expérience positive avec l'homme en costume?
+[Réponse du Narrateur] : Pas pertinent
+
+[Action du Détective] Pose la question : Le boulanger a-t-il une raison spécifique de donner les clés de sa voiture à l'homme en costume?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : La raison pour laquelle le boulanger donne les clés est-elle liée à une sorte de pacte ou d'accord entre eux?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : L'accord entre le boulanger et l'homme en costume implique-t-il un échange de services?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il aidé le boulanger d'une manière ou d'une autre avant cet incident?
+[Réponse du Narrateur] : Pas pertinent
+
+[Action du Détective] Pose la question : L'accord entre le boulanger et l'homme en costume est-il basé sur une sorte de tradition ou de coutume?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : L'accord est-il basé sur une situation d'urgence ou un besoin immédiat?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il aidé le boulanger dans une situation d'urgence avant de recevoir les clés?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : L'urgence concerne-t-elle un problème que le boulanger doit résoudre rapidement?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : L'urgence est-elle liée à une situation personnelle de l'homme en costume?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : L'urgence est-elle liée à un événement extérieur, comme une menace ou un danger imminent?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : L'événement extérieur est-il lié à une menace pour la sécurité de l'homme en costume?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : La menace est-elle liée à des personnes qui poursuivent l'homme en costume?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : La menace est-elle liée à un événement naturel ou accidentel?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : La menace est-elle liée à un problème de santé ou médical?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : La menace est-elle liée à une situation criminelle ou illégale?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : L'homme en costume est-il impliqué dans une activité criminelle?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : L'activité criminelle est-elle en cours au moment où il entre dans la boulangerie?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il récemment échappé à une situation criminelle?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : L'homme en costume est-il en fuite à cause d'une menace criminelle?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : La menace criminelle concerne-t-elle une personne ou un groupe qui s'en prend à l'homme en costume?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : La menace criminelle concerne-t-elle une situation qui pourrait affecter le boulanger?
+[Réponse du Narrateur] : Pas pertinent
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il besoin de la voiture du boulanger pour échapper à une menace criminelle?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il utilisé la boulangerie comme refuge temporaire?
+[Réponse du Narrateur] : Pas pertinent
+
+[Action du Détective] Pose la question : Le boulanger a-t-il confiance en l'homme en costume malgré son implication dans une activité criminelle?
+[Réponse du Narrateur] : Pas pertinent
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il demandé de l'aide au boulanger avant de recevoir les clés?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : Le boulanger a-t-il décidé de donner les clés de sa voiture à l'homme en costume de son propre chef?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il fait un geste ou une demande qui a incité le boulanger à lui donner les clés?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : Le geste ou la demande de l'homme en costume était-il lié à la menace criminelle?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : Le geste ou la demande de l'homme en costume était-il humoristique ou ludique?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : Le geste ou la demande de l'homme en costume était-il lié à une forme de pression ou de menace?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : Le geste ou la demande de l'homme en costume était-il simplement une manière de demander de l'aide?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : Le boulanger a-t-il compris que l'homme en costume avait besoin d'aide en raison de la menace criminelle?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : Le boulanger a-t-il interprété le geste de l'homme en costume comme une blague?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : Le boulanger a-t-il simplement voulu aider l'homme en costume sans comprendre la situation?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il utilisé l'imitation des cornes pour faire passer un message au boulanger?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : Le message que l'homme en costume essaie de faire passer est-il lié à la menace criminelle?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : Le message que l'homme en costume essaie de faire passer est-il humoristique?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : Le message que l'homme en costume essaie de faire passer est-il lié à une sorte de code ou de signal?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : Le code ou le signal est-il connu du boulanger?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : Le code ou le signal est-il utilisé pour indiquer une situation d'urgence?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : Le boulanger a-t-il compris que l'homme en costume était en danger en utilisant ce code?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : Le boulanger a-t-il décidé de donner les clés de sa voiture pour aider l'homme en costume à échapper à la menace?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : Le boulanger a-t-il donné les clés de sa voiture pour une autre raison?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : Le boulanger a-t-il agi de manière instinctive en voyant le code?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : Le boulanger a-t-il été contraint de donner les clés de sa voiture à l'homme en costume?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : Le boulanger a-t-il simplement décidé de donner les clés sans pression?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : Le boulanger a-t-il été influencé par un tiers pour donner les clés?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : Le boulanger a-t-il eu une réaction instinctive en voyant l'homme en costume faire le geste des cornes?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : La réaction instinctive du boulanger était-elle de donner les clés de sa voiture?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : Le boulanger a-t-il pensé que l'homme en costume avait besoin de la voiture pour échapper à un danger?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : Le boulanger a-t-il eu une expérience antérieure qui l'a amené à réagir de cette manière?
+[Réponse du Narrateur] : Pas pertinent
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il utilisé ce code des cornes pour signaler une situation d'urgence à d'autres personnes?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il utilisé ce code des cornes pour signaler une situation d'urgence au boulanger uniquement?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : Le boulanger a-t-il compris que l'homme en costume était en danger et a donc décidé de l'aider?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il quitté la boulangerie rapidement après avoir reçu les clés?
+[Réponse du Narrateur] : Pas pertinent
+
+[Action du Détective] Pose la question : Le boulanger a-t-il eu des doutes sur la sincérité de l'homme en costume?
+[Réponse du Narrateur] : Non
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il quitté la boulangerie avec l'intention de se mettre en sécurité?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : Le boulanger a-t-il eu l'impression que l'homme en costume était en danger immédiat?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : L'homme en costume a-t-il utilisé l'imitation des cornes pour signaler une menace imminente?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : Le boulanger a-t-il agi rapidement pour donner les clés afin d'aider l'homme en costume à échapper à cette menace?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Propose la solution : Un homme en costume trois-pièces entre dans une boulangerie et imite des cornes avec une baguette pour signaler une menace imminente. Le boulanger, comprenant le code, lui tend les clés de sa voiture pour l'aider à échapper à cette menace, sans poser de questions.
+[Verdict de l'arbitre] : C'est un bon début, mais tu dois encore trouver la véritable nature de la relation entre les personnages et la raison précise pour laquelle le boulanger lui tend les clés de sa voiture.
+
+[Action du Détective] Pose la question : La relation entre l'homme en costume et le boulanger est-elle amicale?
+[Réponse du Narrateur] : Pas pertinent
+
+[Action du Détective] Pose la question : La relation entre l'homme en costume et le boulanger est-elle professionnelle?
+[Réponse du Narrateur] : Oui
+
+[Action du Détective] Pose la question : L'homme en costume est-il un client régulier de la boulangerie?
+[Réponse du Narrateur] : Pas pertinent

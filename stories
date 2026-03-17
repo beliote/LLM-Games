@@ -1,0 +1,33 @@
+secret_story1 = """
+    Le permis de conduire d'une vieille femme allait expirer.
+    Ses réflexes ne sont plus ce qu'ils étaient, mais elle ne voulait pas y renoncer.
+    Craignant qu'elle rate son examen, son fils l'emmena sur une aire d'exercice et gara sa voiture contre un mur de briques.
+    Il donna les clés à sa mère et se mit à l'abri derrière la voiture.
+    La vieille femme ne vit pas que la voiture était toujours en marche arrière et nerveusement appuya fortement sur l'accélérateur.
+    Le jeune homme fut écrasé, coincé entre le pare choc et le mur
+    """
+
+public_situation1 = """
+    Il rendit un service à sa mère et le paya de sa vie
+    """
+
+secret_story2 = """
+    Lors d'une soirée alcoolisée au bar réunissant 3 copains, l'un deux, un cambodgien sortit de son sac une mine antipersonnelle vieille de 25 ans qu'il avait déterré dans son jardin.
+    Completement ivres, les homme déciderent de mettre leur courage à l'épreuve : à chaque verre, chaque buveur piétiennait violemment la mine.
+    Les autres clients réussirent à quitter le bar juste avant que le malheur ne survienne : la mine explosa, pulvérisant les trois ivrognes.
+    """
+public_situation2 = """
+    Une manipulation maladroite d'un fragment de leur histoire causa la mort de trois hommes.
+    """
+
+HISTOIRE_SECRETE = """
+    L'homme en costume est un espion en mission secrète, et le boulanger est son contact local (un agent dormant). 
+    Le nom de code de leur mission était 'Opération Taureau'. 
+    Le signal d'urgence absolu convenu entre eux pour indiquer 'Je suis démasqué, j'ai besoin d'un véhicule de fuite immédiatement' était de mimer les cornes d'un taureau avec une baguette de pain. 
+    Le boulanger a compris le signal et a sacrifié sa propre voiture pour sauver l'espion.
+    """
+SITUATION_PUBLIQUE = """
+    Un homme en costume trois-pièces entre dans une boulangerie. 
+    Il achète une baguette bien cuite, la casse en deux, et place les deux morceaux de chaque côté de sa tête pour imiter des cornes. 
+    En voyant cela, le boulanger soupire, lui tend les clés de sa voiture sans dire un mot, et l'homme part avec.
+    """

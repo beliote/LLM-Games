@@ -8,6 +8,7 @@ Réponses possibles : Oui, Non, Ne sais pas, Probablement, Probablement pas
 """
 
 import os
+import re
 from dotenv import load_dotenv
 from langchain.agents import create_agent
 from langchain_openai import ChatOpenAI
@@ -133,7 +134,8 @@ def play_akinator():
         "messages": [HumanMessage(content="Commence le jeu en posant ta première question.")]
     }, config)
     
-    agent_message = response['messages'][-1].content
+    agent_message_brut = response['messages'][-1].content
+    agent_message = re.sub(r'<think>.*?</think>', '', agent_message_brut, flags=re.DOTALL).strip()
     print(f"Akinator : {agent_message}\n")
     
     question_count = 1
@@ -155,8 +157,11 @@ def play_akinator():
         response = agent.invoke({
             "messages": [HumanMessage(content=user_input)]
         }, config)
+
+        # Nettoyage pour certains modèles Groq
+        agent_message_brut = response['messages'][-1].content
+        agent_message = re.sub(r'<think>.*?</think>', '', agent_message_brut, flags=re.DOTALL).strip()
         
-        agent_message = response['messages'][-1].content
         
         # Vérifier si l'agent a gagné
         if "j'ai gagné" in agent_message.lower():
