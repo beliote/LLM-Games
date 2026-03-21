@@ -1,0 +1,32 @@
+[
+    {
+        "titre": "Curieux jeu de bar",
+        "situation": "Une manipulation maladroite d'un fragment de leur histoire causa la mort de trois hommes.",
+        "histoire": "Lors d'une soirée alcoolisée au bar réunissant 3 copains, l'un d'eux sortit de son sac une mine antipersonnelle vieille de 25 ans qu'il avait déterrée dans son jardin. Complètement ivres, les hommes décidèrent de mettre leur courage à l'épreuve : à chaque verre, ils piétinaient la mine. La mine explosa, pulvérisant les trois ivrognes."
+    },
+    {
+        "titre": "Au pied du mur",
+        "situation": "Il rendit un service à sa mère et le paya de sa vie",
+        "histoire": "Le permis de conduire d'une vieille femme allait expirer. Ses réflexes ne sont plus ce qu'ils étaient, mais elle ne voulait pas y renoncer. Craignant qu'elle rate son examen, son fils l'emmena sur une aire d'exercice et gara sa voiture contre un mur de briques. Il donna les clés à sa mère et se mit à l'abri derrière la voiture. La vieille femme ne vit pas que la voiture était toujours en marche arrière et nerveusement appuya fortement sur l'accélérateur. Le jeune homme fut écrasé, coincé entre le pare choc et le mur."
+    },
+    {
+        "titre": "Les bottes de l'explorateur",
+        "situation": "Un homme est retrouvé mort dans un champ de neige, en combinaison de plongée.",
+        "histoire": "Un gigantesque feu de forêt faisait rage à quelques kilomètres de là. Un bombardier d'eau (Canadair) a puisé de l'eau dans un lac à proximité pour éteindre le feu. L'homme, qui faisait tranquillement de la plongée sous-marine dans ce lac, a été aspiré par l'avion, puis largué depuis les airs sur la forêt enneigée."
+    },
+    {
+        "titre": "Le restaurant de fruits de mer",
+        "situation": "Un homme commande de la viande de pingouin dans un restaurant. Il en mange une bouchée, sort du restaurant et se suicide.",
+        "histoire": "L'homme avait fait naufrage sur une île déserte avec sa femme et d'autres personnes. Sa femme est morte. Les autres survivants l'ont nourri avec de la viande en lui disant que c'était du pingouin. Des années plus tard, en goûtant du vrai pingouin, il se rend compte que le goût est différent et comprend qu'il a en réalité mangé sa propre femme sur l'île. Rongé par la culpabilité, il se suicide."
+    },
+    {
+        "titre": "Echec écrasant",
+        "situation": "Se fiant trop à la qualité, un homme apprit à voler.",
+        "histoire": "Un homme voulu démontrer à ses étudiants la solidité des fenêtres du gratte-ciel où il travaillait. Ayant déjà effectué cette démonstration, il se lanca à toute vitesse contre une fenêtre. Malheureusement, cette fois la vitre vola en éclats et l'homme fit une chute de vingt-quatre étages."
+    },
+    {
+        "titre": "Une question d'orientation",
+        "situation": "Un homme se perdit en parcourant une distance d'à peine deux mètres et en mourut.",
+        "histoire": "Un homme eut l'idée de percer deux trous dans la glace. Il voulait plonger dans l'un et ressortir par l'autre, comme un ours. Bien que la distance entre les trous fut courte, homme ne réapparut pas à la surface. L'eau lui fit perdre le sens de l'orientation et fut retrouvé mort à quelque mètres des trous."
+    }
+]
