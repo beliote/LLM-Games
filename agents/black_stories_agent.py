@@ -106,7 +106,6 @@ def create_black_stories_agent(histoire_secrete: str, situation: str):
 # BOUCLE DE JEU
 # ==========================================
 def play_black_stories():
-    # 1. Préparation de l'histoire et de l'agent
     histoire_actuelle = charger_histoire_aleatoire()
     SITUATION_PUBLIQUE = histoire_actuelle["situation"]
     HISTOIRE_SECRETE = histoire_actuelle["histoire"]
@@ -114,9 +113,7 @@ def play_black_stories():
 
     agent = create_black_stories_agent(HISTOIRE_SECRETE, SITUATION_PUBLIQUE)
     
-    # ID de session unique pour la mémoire (MemorySaver)
-    session_id = str(uuid.uuid4())
-    config = {"configurable": {"thread_id": session_id}}
+    config = {"configurable": {"thread_id": "bs_game"}}
 
     print("\n" + "=" * 60)
     print("=== DÉBUT DE LA PARTIE DE BLACK STORIES ===")
@@ -125,7 +122,6 @@ def play_black_stories():
     print("Tu es le détective ! Pose tes questions fermées ou propose ta théorie complète.")
     print("(Tape 'quitter' à tout moment pour arrêter)\n")
 
-    # 2. La boucle interactive
     while True:
         user_input = input("\n> ").strip()
 
@@ -136,7 +132,6 @@ def play_black_stories():
             print(f"\nFin de la partie. La vérité (Titre: {TITRE}) était :\n{HISTOIRE_SECRETE}")
             return False 
 
-        # On envoie le message à l'Agent
         response = agent.invoke({
             "messages": [HumanMessage(content=user_input)]
         }, config)
@@ -148,10 +143,16 @@ def play_black_stories():
         log_game(f"[Toi] {user_input}")
         log_game(f"[Maître du Jeu] {agent_message}")
 
-        # Si l'agent annonce la victoire (suite à l'utilisation de son outil)
         if "victoire" in agent_message.lower() or "gagné" in agent_message.lower() or "félicitations" in agent_message.lower():
             print("\nFÉLICITATIONS ! Tu as résolu le mystère !")
-            return True 
+            
+            print("\n" + "=" * 60)
+            rejouer = input("\nVoulez-vous enquêter sur une autre histoire ? (oui/non) : ").strip().lower()
+            if rejouer in ['oui', 'o', 'yes', 'y']:
+                print("\n" * 2)
+                return True # On renvoie True au Hub pour qu'il relance la fonction
+            
+            return False # On renvoie False pour dire qu'on arrête
 
 
 if __name__ == "__main__":

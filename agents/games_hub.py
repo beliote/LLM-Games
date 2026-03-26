@@ -84,10 +84,8 @@ def main_menu():
             print("\nC'est parti pour une enquête macabre !")
             rejouer = True
             while rejouer:
-                play_black_stories()
-                # Option rejouer
-                rep = input("\nVoulez-vous enquêter sur une autre histoire ? (oui/non) : ").strip().lower()
-                rejouer = rep in ['oui', 'o', 'yes', 'y']
+                # True si le joueur veut refaire une partie
+                rejouer = play_black_stories()
             print("\nRetour au Hub Principal.")
             
         else:
