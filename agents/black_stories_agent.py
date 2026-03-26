@@ -41,7 +41,7 @@ def create_black_stories_agent(histoire_secrete: str, situation: str):
     pour qu'il ait accès aux variables de l'histoire en cours.
     """
 
-    # --- L'OUTIL DE L'AGENT ---
+    # --- OUTIL DE L'AGENT ---
     @tool
     def verifier_solution(proposition: str) -> str:
         """
@@ -52,42 +52,51 @@ def create_black_stories_agent(histoire_secrete: str, situation: str):
             model=os.getenv("AI_MODEL"),
             base_url=os.getenv("AI_ENDPOINT"),
             api_key=os.getenv("AI_API_KEY"),
-            temperature=0.1
+            temperature=0.0 # Température à 0 pour un arbitrage sans pitié
         )
         arbiter_prompt = f"""Tu es l'arbitre intraitable d'une partie de Black Stories.
-            SITUATION : {situation}
-            VÉRITÉ : {histoire_secrete}
-            PROPOSITION : {proposition}
 
-            MISSION :
-            Si la solution est globalement correcte (cause, objet, contexte), réponds EXACTEMENT : "VICTOIRE".
-            Sinon, dis-lui ce qu'il manque en une phrase courte sans donner la réponse."""
+        CONTEXTE :
+        - SITUATION : {situation}
+        - VÉRITÉ : {histoire_secrete}
+        - PROPOSITION DU JOUEUR : {proposition}
+
+        RÈGLES DE DÉCISION ABSOLUES :
+        1. Le joueur a-t-il compris le cœur de l'histoire (la cause, le contexte principal, les rôles) ?
+        2. Si OUI : Tu DOIS répondre EXACTEMENT et UNIQUEMENT par le mot : VICTOIRE
+        3. Si NON : Tu DOIS répondre en commençant obligatoirement par "INDICE : " suivi de ta remarque pour le guider.
+
+        INTERDICTION ABSOLUE (ANTI-SPOIL) : 
+        Dans un "INDICE", ne révèle JAMAIS les faits de la VÉRITÉ qu'il n'a pas encore devinés. Pose plutôt des questions.
+        - MAUVAIS EXEMPLE (SPOIL) : "Il manque le fait qu'il passait son permis avec sa mère."
+        - BON EXEMPLE : "Tu as trouvé la cause de l'accident, mais pourquoi la mère était-elle au volant à ce moment précis ?"
+        """
         
         response = arbiter.invoke([HumanMessage(content=arbiter_prompt)])
         return re.sub(r'<think>.*?</think>', '', response.content, flags=re.DOTALL).strip()
 
 
-    # --- MODÈLE ET L'AGENT ---
+    # --- MODÈLE ET AGENT ---
     model = ChatOpenAI(
         model=os.getenv("AI_MODEL"),
         base_url=os.getenv("AI_ENDPOINT"),
         api_key=os.getenv("AI_API_KEY"),
-        temperature=0.3
+        temperature=0.0
     )
 
     system_prompt = f"""Tu es le Maître du Jeu d'une partie de Black Stories. Le joueur est le détective.
-    
-    SITUATION INITIALE : {situation}
-    VÉRITABLE HISTOIRE : {histoire_secrete}
 
-    RÈGLES DE COMPORTEMENT :
-    1. Si le joueur te pose une QUESTION FERMÉE (pour avoir un indice) : 
-       -> N'utilise AUCUN outil. Réponds TOI-MÊME en utilisant STRICTEMENT ET UNIQUEMENT l'une de ces réponses : "Oui", "Non", "Probablement", "Probablement pas" ou "Pas pertinent". Ne dis absolument rien d'autre.
+    CONTEXTE DE LA PARTIE :
+    - SITUATION INITIALE : {situation}
+    - VÉRITABLE HISTOIRE SECRÈTE : {histoire_secrete}
+
+    TON COMPORTEMENT (RÈGLES ABSOLUES) :
+    1. ANALYSE L'INTENTION : Si le joueur pose une question fermée, réponds TOI-MÊME par : "Oui", "Non", "Probablement", "Probablement pas" ou "Pas pertinent". N'ajoute AUCUN autre mot.
+    2. PROPOSITION : Si le joueur propose une théorie complexe, tu DOIS utiliser l'outil 'verifier_solution'.
     
-    2. Si le joueur PROPOSE UNE SOLUTION (théorie complexe, "je pense que...", etc.) :
-       -> Tu DOIS obligatoirement utiliser l'outil 'verifier_solution' avec la proposition du joueur.
-       -> Si l'outil te répond "VICTOIRE", annonce au joueur qu'il a gagné et raconte-lui l'histoire complète avec enthousiasme.
-       -> Si l'outil te répond autre chose, répète la réponse de l'outil au joueur pour le guider.
+    GESTION DU RETOUR DE L'OUTIL :
+    - Si l'outil te répond "VICTOIRE" : Rédige un message commençant OBLIGATOIREMENT par "FÉLICITATIONS" et raconte-lui l'histoire complète avec enthousiasme.
+    - Si l'outil te répond avec "INDICE : " : Répète EXACTEMENT cet indice au joueur, SANS RIEN AJOUTER. Ne révèle jamais l'histoire toi-même.
     """
 
     checkpointer = MemorySaver()
@@ -113,6 +122,7 @@ def play_black_stories():
 
     agent = create_black_stories_agent(HISTOIRE_SECRETE, SITUATION_PUBLIQUE)
     
+    # MemorySaver
     config = {"configurable": {"thread_id": "bs_game"}}
 
     print("\n" + "=" * 60)
